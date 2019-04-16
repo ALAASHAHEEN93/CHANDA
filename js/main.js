@@ -26,7 +26,31 @@ $(() => {
       loop: true,
     });
   });
-
+   	$('#owl-about').owlCarousel({
+		items : 3,
+		nav: true,
+    navText: ['prev', ''],
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [980,1],
+		itemsTablet: [768,1],
+		itemsTabletSmall: [550,1],
+    itemsMobile : [480,1],
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:true
+        },
+        1000:{
+            items:3,
+            nav:true,
+        }}
+	});
 
           
 function isInView(elem){

@@ -22,6 +22,22 @@
   background: transparent !important;
 }
 
+.owl-nav {
+    display: block;
+    font-size: 41px;
+    text-align: center;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+
 .m-btn-white {
   color: black;
 }
@@ -938,6 +954,7 @@ img.card-img-bg {
 
 .flip .card {
   margin: 0px;
+    height: 100%;
 }
 
 
@@ -992,6 +1009,43 @@ img.card-img-bg {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
+
+.owl-item {
+  float: left;
+}
+.services-block span {
+  margin: 10px 0;
+  position: relative;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+}
+.owl-carousel .owl-theme {
+  position: relative;
+}
+
+.item {
+    margin: 10px;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    width: 120px !important;
+}
+
+img.card-img-bg {
+    width: 100% !important;
+}
+.owl-nav {
+    display: block;
+    font-size: 35px;
+}
+
 
 .back {
   -webkit-transform: rotateY(180deg);

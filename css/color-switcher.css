@@ -47,7 +47,7 @@
     border-radius: 0 3px 3px 0;
     box-shadow: 5px 0 7px rgba(0,0,0,.15);
     color: #fff;
-    background: #82b965;
+    background: var(--main-color);;
 }
 
 .ColorSwitcher__control:before {
